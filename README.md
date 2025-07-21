@@ -19,7 +19,7 @@ Each model was trained and evaluated for performance using metrics such as **acc
 
 ## 📊 Dataset
 
-- **Source**: Kaggle / other open-source repository  
+- **Source**: Kaggle 
 - **Columns**:
   - `id`: Unique ID for each news article
   - `title`: Headline of the news article
