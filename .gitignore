@@ -1,4 +1,4 @@
-# Ignore large datasets
+# Ignore datasets
 data/
 *.csv
 *.zip
