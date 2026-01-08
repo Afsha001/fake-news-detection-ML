@@ -6,7 +6,7 @@ This project focuses on detecting fake news articles using supervised machine le
 
 ---
 
-## 🧠 Algorithms Used
+##  Algorithms Used
 
 - ✅ Logistic Regression
 - ✅ Multinomial Naive Bayes
@@ -17,7 +17,7 @@ Each model was trained and evaluated for performance using metrics such as **acc
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source**: Kaggle 
 - **Columns**:
@@ -26,10 +26,20 @@ Each model was trained and evaluated for performance using metrics such as **acc
   - `author`: Author of the article
   - `text`: Full text content
   - `label`: Target variable — `1` for fake, `0` for real
+  
+   - **Size**: ~90,000+ news articles (large text dataset)
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Splitting
+
+The dataset was split into training and testing sets using an 80:20 ratio.
+- Training set: Used for model training
+- Test set: Used for model evaluation on unseen data
+
+---
+
+##  Data Preprocessing
 
 - Handled missing values
 - Combined `title`, `author`, and `text` into a single content field
@@ -42,7 +52,7 @@ Each model was trained and evaluated for performance using metrics such as **acc
 
 ---
 
-## 🧪 Model Evaluation
+##  Model Evaluation
 
 | Model                | Accuracy | Precision | Recall | F1 Score |
 |---------------------|----------|-----------|--------|----------|
