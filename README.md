@@ -1,4 +1,4 @@
-# 📰 Fake News Detection Using Machine Learning
+#  Fake News Detection Using Machine Learning
 
 ## 📌 Project Overview
 
@@ -8,10 +8,10 @@ This project focuses on detecting fake news articles using supervised machine le
 
 ##  Algorithms Used
 
-- ✅ Logistic Regression
-- ✅ Multinomial Naive Bayes
-- ✅ Decision Tree Classifier
-- ✅ Support Vector Machine (SVM)
+-  Logistic Regression
+-  Multinomial Naive Bayes
+-  Decision Tree Classifier
+-  Support Vector Machine (SVM)
 
 Each model was trained and evaluated for performance using metrics such as **accuracy**, **precision**, **recall**, **F1-score**, and **confusion matrix**.
 
@@ -65,11 +65,11 @@ The dataset was split into training and testing sets using an 80:20 ratio.
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 - Confusion matrices for all models
 - Accuracy comparison bar chart
-- ROC curves (optional)
+- ROC curves
 
 
 
